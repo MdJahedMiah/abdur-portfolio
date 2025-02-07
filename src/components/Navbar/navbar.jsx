@@ -1,15 +1,22 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
-import { FiMenu, FiX } from "react-icons/fi"; // Icons for mobile menu
+import { FiMenu, FiX } from "react-icons/fi";
+import { FaRocket } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white shadow-md p-4 z-50">
+    <nav className="fixed top-0 left-0 w-full bg-white shadow-md p-6 z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Brand Name */}
-        <h1 className="text-xl font-bold text-blue-500">Abdur Rahman</h1>
+        {/* Brand Logo with Icon & Stylish Text */}
+        <Link to="hero" smooth={true} duration={500} className="cursor-pointer flex items-center space-x-2">
+          <FaRocket className="text-4xl text-blue-500 hover:text-indigo-500 transition duration-300" />
+          <h1 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-indigo-600" style={{ fontFamily: 'Poppins, sans-serif' }}>
+            Abdur Rahman
+          </h1>
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
@@ -24,7 +31,7 @@ const Navbar = () => {
         {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? <FiX size={28} /> : <FiMenu size={28} />}
+            {isOpen ? <FiX size={30} /> : <FiMenu size={28} />}
           </button>
         </div>
       </div>
