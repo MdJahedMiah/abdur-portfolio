@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Link } from "react-scroll";
+
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaRocket } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Brand Name */}
         {/* Brand Logo with Icon & Stylish Text */}
-        <Link to="hero" smooth={true} duration={500} className="cursor-pointer flex items-center space-x-2">
+        <Link to="/" smooth={true} duration={500} className="cursor-pointer flex items-center space-x-2">
           <FaRocket className="text-4xl text-blue-500 hover:text-indigo-500 transition duration-300" />
           <h1 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-indigo-600" style={{ fontFamily: 'Poppins, sans-serif' }}>
             Abdur Rahman
@@ -20,12 +21,12 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
-          <li><Link to="hero" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Home</Link></li>
-          <li><Link to="about" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">About</Link></li>
-          <li><Link to="services" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Services</Link></li>
-          <li><Link to="portfolio" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Portfolio</Link></li>
-          <li><Link to="testimonials" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Testimonials</Link></li>
-          <li><Link to="contact" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Contact</Link></li>
+          <li><Link to="/" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Home</Link></li>
+          <li><Link to="/about" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">About</Link></li>
+          <li><Link to="/services" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Services</Link></li>
+          <li><Link to="/portfolio" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Portfolio</Link></li>
+          <li><Link to="/testimonials" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Testimonials</Link></li>
+          <li><Link to="/contact" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Contact</Link></li>
         </ul>
 
         {/* Mobile Menu Button */}

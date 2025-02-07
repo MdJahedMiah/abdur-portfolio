@@ -5,7 +5,7 @@ import profileImage from "../../assets/abdur.jpg"; // Import Image
 
 const HeroSection = () => {
   return (
-    <div className="relative bg-gradient-to-r from-blue-500 to-indigo-600 text-white pt-46 pb-30 px-5">
+    <div className="relative bg-gradient-to-r from-blue-500 to-indigo-600 text-white pt-36 md:pt-46 pb-30 px-5">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center text-center md:text-left">
         
         {/* Image Section */}
