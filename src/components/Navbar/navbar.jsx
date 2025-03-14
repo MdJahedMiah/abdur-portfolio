@@ -25,7 +25,6 @@ const Navbar = () => {
           <li><Link to="/about" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">About</Link></li>
           <li><Link to="/services" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Services</Link></li>
           <li><Link to="/portfolio" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Portfolio</Link></li>
-          <li><Link to="/testimonials" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Testimonials</Link></li>
           <li><Link to="/contact" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Contact</Link></li>
         </ul>
 
