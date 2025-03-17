@@ -61,14 +61,14 @@ const Skills = () => {
             whileHover={{ scale: 1.05, boxShadow: "0px 4px 20px rgba(0, 100, 255, 0.3)" }}
           >
             {/* Set dynamic meta tags using Helmet */}
-            <Helmet>
+            {/* <Helmet>
               <title>{service.title} | Abdur Rahman</title>
               <meta name="description" content={service.metaDescription} />
               <meta name="keywords" content={service.metaKeywords} />
               <meta property="og:title" content={service.title} />
               <meta property="og:description" content={service.metaDescription} />
-              <meta property="og:image" content="/path/to/image.jpg" /> {/* Add appropriate image */}
-            </Helmet>
+              <meta property="og:image" content="/path/to/image.jpg" /> {/* Add appropriate image 
+            </Helmet> */}
 
             {service.icon}
             <h3 className="text-2xl font-bold mt-4 text-gray-800">{service.title}</h3>
