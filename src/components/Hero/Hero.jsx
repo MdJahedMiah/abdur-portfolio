@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <img
             src={profileImage}
-            alt="Abdur Rahman"
+            alt="Abdur Rahman, Digital Marketing and SEO Expert"
             className="w-52 h-52 md:w-64 md:h-64 rounded-full shadow-lg border-4 border-white"
           />
         </motion.div>
@@ -54,9 +54,10 @@ const HeroSection = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                Hire Me
+                Get Expert Digital Marketing Services
               </motion.button>
             </Link>
+
             <Link to="/portfolio">
               <motion.button
                 className="px-6 py-3 bg-white text-blue-600 font-semibold rounded shadow-lg hover:bg-gray-200"
@@ -74,36 +75,45 @@ const HeroSection = () => {
               href="https://www.linkedin.com/in/seoabdur/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Abdur Rahman LinkedIn Profile"
             >
-              <FaLinkedin className="text-3xl  hover:text-blue-600 transition-colors duration-300" />
+              <FaLinkedin className="text-3xl hover:text-blue-600 transition-colors duration-300" />
             </a>
+
             <a
               href="https://www.facebook.com/seoabdur"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Abdur Rahman Facebook Profile"
             >
-              <FaFacebook className="text-3xl  hover:text-blue-500 transition-colors duration-300" />
+              <FaFacebook className="text-3xl hover:text-blue-500 transition-colors duration-300" />
             </a>
+
             <a
               href="https://www.instagram.com/seoabdur/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Abdur Rahman Instagram Profile"
             >
-              <FaInstagram className="text-3xl  hover:text-pink-500 transition-colors duration-300" />
+              <FaInstagram className="text-3xl hover:text-pink-500 transition-colors duration-300" />
             </a>
+
             <a
               href="https://www.upwork.com/freelancers/~seoabdur"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Abdur Rahman Upwork Profile"
             >
-              <SiUpwork className="text-3xl  hover:text-green-500 transition-colors duration-300" />
+              <SiUpwork className="text-3xl hover:text-green-500 transition-colors duration-300" />
             </a>
+
             <a
               href="https://www.fiverr.com/seoabdur"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Abdur Rahman Fiverr Profile"
             >
-              <SiFiverr className="text-3xl  hover:text-green-400 transition-colors duration-300" />
+              <SiFiverr className="text-3xl hover:text-green-400 transition-colors duration-300" />
             </a>
           </div>
         </motion.div>
