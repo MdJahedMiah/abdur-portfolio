@@ -42,7 +42,6 @@ const Navbar = () => {
           <li><Link to="about" smooth={true} duration={500} onClick={() => setIsOpen(false)}>About</Link></li>
           <li><Link to="services" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Services</Link></li>
           <li><Link to="portfolio" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Portfolio</Link></li>
-          <li><Link to="testimonials" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Testimonials</Link></li>
           <li><Link to="contact" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Contact</Link></li>
         </ul>
       )}
