@@ -51,8 +51,10 @@ const services = [
 const Skills = () => {
   return (
     <section className="p-10 bg-gradient-to-r from-blue-50 to-blue-100 pt-20 pb-20">
-      <h2 className="text-4xl font-extrabold text-center text-blue-700 tracking-wide pb-4">My Skills & Services</h2>
-      
+      <h2 className="text-4xl font-extrabold text-center text-blue-700 tracking-wide pb-4">My Skills</h2>
+      <p className="text-lg text-center text-gray-600 max-w-5xl mx-auto">
+  I specialize in creating result-driven digital marketing strategies. With years of experience, I help businesses enhance their online presence, attract high-quality traffic, and convert leads into loyal customers.
+</p>
       <div className="mt-12 grid gap-8 md:grid-cols-3">
         {services.map((service, index) => (
           <motion.article 

@@ -21,7 +21,7 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <div className="p-12 bg-gradient-to-r from-purple-50 to-indigo-100 my-1">
+    <div className="p-12 bg-gradient-to-r from-purple-50 to-indigo-100 my-0.5">
       <h2 className="text-4xl font-extrabold text-center text-indigo-700 tracking-wide py-8">
         What My Clients Say
       </h2>
