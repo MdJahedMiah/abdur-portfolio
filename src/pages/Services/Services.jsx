@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaSearch, FaFacebook, FaGoogle, FaEnvelope, FaWordpress } from "react-icons/fa";
+import { FaSearch, FaFacebook, FaGoogle, FaEnvelope, FaWordpress, FaDatabase, FaChartLine } from "react-icons/fa";
 
 const services = [
   {
@@ -26,10 +26,20 @@ const services = [
     icon: <FaWordpress className="text-gray-700 text-5xl" />, 
     title: "WordPress Website Design", 
     description: "Build stunning and responsive WordPress websites tailored to your needs."
+  },
+  {
+    icon: <FaDatabase className="text-purple-500 text-5xl" />, 
+    title: "Data Entry Services", 
+    description: "Accurate data entry, web research, and database management to keep your business organized."
+  },
+  {
+    icon: <FaChartLine className="text-yellow-500 text-5xl" />, 
+    title: "Google Ads Services", 
+    description: "Expert Google Ads management, including PPC, Display, and YouTube Ads."
   }
 ];
 
-const Services= () => {
+const Services = () => {
   return (
     <div className="container mx-auto py-16 px-4 text-center mt-24">
       <motion.h2 
@@ -39,7 +49,7 @@ const Services= () => {
       >
         My Services
       </motion.h2>
-      <p className="text-gray-600 text-lg mb-12">Offering professional digital marketing solutions tailored to your business needs.</p>
+      <p className="text-gray-600 text-lg mb-12">Offering professional digital marketing and data services tailored to your business needs.</p>
       <div className="grid md:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <motion.div 

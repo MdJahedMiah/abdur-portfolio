@@ -57,7 +57,7 @@ const Skills = () => {
         {services.map((service, index) => (
           <motion.article 
             key={index} 
-            className="p-8 border rounded-lg shadow-lg bg-white flex flex-col items-center text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl"
+            className="p-8 rounded-lg shadow-lg bg-white flex flex-col items-center text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl"
             whileHover={{ scale: 1.05, boxShadow: "0px 4px 20px rgba(0, 100, 255, 0.3)" }}
           >
             {/* Set dynamic meta tags using Helmet */}

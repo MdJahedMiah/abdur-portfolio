@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaArrowUp, FaChartLine, FaGlobe } from "react-icons/fa";
+import { FaArrowUp, FaChartLine, FaGlobe, FaYoutube, FaFacebook } from "react-icons/fa";
 
 const projects = [
   {
@@ -19,6 +19,18 @@ const projects = [
     icon: <FaGlobe className="text-gray-700 text-5xl" />,
     description: "Built a responsive and SEO-optimized website that boosted lead generation.",
     image: "/images/wordpress-site.png",
+  },
+  {
+    title: "YouTube Video SEO Optimization",
+    icon: <FaYoutube className="text-red-500 text-5xl" />,
+    description: "Successfully optimized a YouTube video using advanced SEO techniques, achieving a perfect 100/100 vidIQ SEO score. Improved visibility, rankings, and engagement.",
+    image: "https://i.ibb.co/6JLmJxRk/youtube-video-seo-optimization.jpg",
+  },
+  {
+    title: "Facebook Ads Campaign Management",
+    icon: <FaFacebook className="text-blue-700 text-5xl" />,
+    description: "Managed multiple Facebook ad campaigns, including engagement, promotion, and message campaigns. Optimized targeting, budget management, and high-performing ad strategies.",
+    image: "https://i.ibb.co/1Gdd44bh/fscamp.jpg",
   },
 ];
 

@@ -7,9 +7,10 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/men/1.jpg"
   },
   { 
-    name: "Sarah Smith", 
+    name: "Md Jahed Miah",
+    address: "Bedford, United Kingdom", 
     feedback: "Amazing social media ads! My business got more leads than ever before.",
-    image: "https://randomuser.me/api/portraits/women/2.jpg"
+    image: "https://i.ibb.co/NN3pKTD/jahedpp-removebg-preview.png"
   },
   { 
     name: "Michael Lee", 
@@ -38,6 +39,7 @@ const TestimonialsSection = () => {
               className="w-20 h-20 rounded-full shadow-md border-4 border-purple-300"
             />
             <h3 className="text-xl font-semibold mt-4 text-indigo-700">{testimonial.name}</h3>
+            <p className="text-xl font-medium mt-4 text-indigo-500">{testimonial.address}</p>
             <p className="text-gray-600 leading-relaxed mt-2 italic font-light">
               {testimonial.feedback}
             </p>
