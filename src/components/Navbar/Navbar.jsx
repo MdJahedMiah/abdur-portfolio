@@ -25,6 +25,11 @@ const Navbar = () => {
           <li><Link to="/services" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Services</Link></li>
           <li><Link to="/portfolio" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Portfolio</Link></li>
           <li><Link to="/contact" smooth={true} duration={500} className="cursor-pointer hover:text-blue-500">Contact</Link></li>
+          <li>
+        <a href="mailto:seoabdurrahmanbd@gmail.com" className="btn bg-blue-600 text-white px-4 py-3 rounded-xl text-lg hover:bg-blue-700 transition-all">
+          Hire Me
+        </a>
+      </li>
         </ul>
 
         {/* Mobile Menu Button */}
@@ -43,6 +48,11 @@ const Navbar = () => {
           <li><Link to="services" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Services</Link></li>
           <li><Link to="portfolio" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Portfolio</Link></li>
           <li><Link to="contact" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Contact</Link></li>
+          <li>
+        <a href="mailto:seoabdurrahmanbd@gmail.com" className="btn bg-blue-600 text-white px-4 py-3 rounded-xl text-lg hover:bg-blue-700 transition-all">
+          Hire Me
+        </a>
+      </li>
         </ul>
       )}
     </nav>
