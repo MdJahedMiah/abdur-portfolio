@@ -43,7 +43,7 @@ const Footer = () => {
                         <SiFiverr className="text-3xl  hover:text-green-400 transition-colors duration-300" />
                       </a>
         </div>
-        <p className="mt-4 text-sm opacity-75 pb-6">&copy; {new Date().getFullYear()} Zahra IT. All rights reserved.</p>
+        <p className="mt-4 text-sm opacity-75 pb-6">&copy; {new Date().getFullYear()} ZahraItDev. All rights reserved.</p>
       </div>
     </footer>
   );
