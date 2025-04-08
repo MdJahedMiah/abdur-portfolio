@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
-import { FaSearch, FaFacebook, FaGoogle, FaEnvelope, FaWordpress, FaDatabase, FaChartLine } from "react-icons/fa";
+import { 
+  FaSearch, FaFacebook, FaGoogle, FaEnvelope, 
+  FaWordpress, FaDatabase, FaChartLine, FaCode, FaReact, FaServer 
+} from "react-icons/fa"; // Added FaCode, FaReact, FaServer
 
 const services = [
   {
@@ -36,6 +39,21 @@ const services = [
     icon: <FaChartLine className="text-yellow-500 text-5xl" />, 
     title: "Google Ads Services", 
     description: "Expert Google Ads management, including PPC, Display, and YouTube Ads."
+  },
+  {
+    icon: <FaCode className="text-indigo-600 text-5xl" />, 
+    title: "Web Development", 
+    description: "Custom websites and web apps built with modern technologies tailored to your business needs."
+  },
+  {
+    icon: <FaReact className="text-cyan-500 text-5xl" />, 
+    title: "Front-End React Development", 
+    description: "Build high-performance user interfaces using modern React.js practices and UI frameworks."
+  },
+  {
+    icon: <FaServer className="text-gray-800 text-5xl" />, 
+    title: "MERN Stack Development", 
+    description: "Full-stack web applications using MongoDB, Express, React, and Node.js for dynamic solutions."
   }
 ];
 

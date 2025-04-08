@@ -29,11 +29,11 @@ const HeroSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-4xl md:text-5xl font-extrabold">
+          <h1 className="text-3xl md:text-5xl font-extrabold">
             Hi, I'm <span className="text-yellow-300">Abdur Rahman</span>
           </h1>
           <motion.p
-            className="text-lg md:text-xl mt-3"
+            className="text-base md:text-xl mt-3"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
@@ -50,7 +50,7 @@ const HeroSection = () => {
           <div className="mt-6 flex justify-center md:justify-start space-x-4">
             <Link to="/contact">
               <motion.button
-                className="px-6 py-3 bg-yellow-400 text-black font-semibold rounded shadow-lg hover:bg-yellow-300"
+                className="px-2 md:px-6 py-1 md:py-3 bg-yellow-400 text-black font-semibold rounded shadow-lg hover:bg-yellow-300"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -60,7 +60,7 @@ const HeroSection = () => {
 
             <Link to="/portfolio">
               <motion.button
-                className="px-6 py-3 bg-white text-blue-600 font-semibold rounded shadow-lg hover:bg-gray-200"
+                className="px-2 md:px-6 py-1 md:py-3 bg-white text-blue-600 font-semibold rounded shadow-lg hover:bg-gray-200"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
