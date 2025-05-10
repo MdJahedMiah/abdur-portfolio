@@ -2,21 +2,23 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   { 
-    name: "John Doe", 
+    name: "Hilda Espino", 
+    address: "United States",
+    feedback: "Amazing social media ads! My business got more leads than ever before.",
+    image: "https://i.ibb.co/Kpkxnrh2/Whats-App-Image-2025-05-04-at-18-51-51-ffe1f69c.jpg"
+  },
+  { 
+    name: "Imranuzzaman Imran", 
     feedback: "Abdur is a fantastic digital marketer! My website traffic increased by 50% in 3 months.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg"
+    image: "https://i.ibb.co/3Xrkw6B/imran.jpg"
   },
   { 
     name: "Md Jahed Miah",
     address: "Bedford, United Kingdom", 
-    feedback: "Amazing social media ads! My business got more leads than ever before.",
-    image: "https://i.ibb.co/NN3pKTD/jahedpp-removebg-preview.png"
-  },
-  { 
-    name: "Michael Lee", 
     feedback: "SEO expert! My website now ranks #1 on Google for my niche.",
-    image: "https://randomuser.me/api/portraits/men/3.jpg"
+    image: "https://i.ibb.co/NN3pKTD/jahedpp-removebg-preview.png"
   }
+  
 ];
 
 const TestimonialsSection = () => {
