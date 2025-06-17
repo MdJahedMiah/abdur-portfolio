@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 import { SiUpwork, SiFiverr } from "react-icons/si";
-import profileImage from "../../assets/abdur.jpg"; // Import Image
 
 const HeroSection = () => {
   return (
@@ -16,7 +15,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
         >
           <img
-            src={profileImage}
+            src="https://i.ibb.co/CrhN1zN/seoabdur.jpg"
             alt="Abdur Rahman, Digital Marketing and SEO Expert"
             className="w-52 h-52 md:w-64 md:h-64 rounded-full shadow-lg border-4 border-white"
           />
